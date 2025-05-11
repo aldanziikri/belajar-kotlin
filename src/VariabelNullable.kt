@@ -12,4 +12,11 @@ fun main() {
     name = "zikri"
     println(name?.length)
     println(APP_NAME)
+
+    val users: Array<String> = arrayOf("aldan", "intan", "zikri", "nabil")
+    val usersNull: Array<String?> = arrayOfNulls(3)
+    println(users[1])
+//    println(users.set(2, "nabila"))
+    println(users[2])
+    println(users.size)
 }
