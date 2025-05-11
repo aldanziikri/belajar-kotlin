@@ -19,4 +19,13 @@ fun main() {
 //    println(users.set(2, "nabila"))
     println(users[2])
     println(users.size)
+
+    //range
+    val range = 100 downTo  1
+    println(range)
+    println(range.count())
+    println(range.last)
+    println(range.first)
+    println(range.contains(200))
+    println(range.step)
 }
