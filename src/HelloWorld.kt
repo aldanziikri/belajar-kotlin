@@ -1,14 +1,14 @@
 
 
 fun main() {
-    hello()
+    println(hello("aldan",43,34,21))
 
 }
-fun hello() {
-    println("Hello World")
-    print("hello ")
-    print("aldan, ")
-    println("aldan zikri")
+fun hello(nama: String? = "aldan", vararg nilais:Int): String {
+    var total = 0
+    for (nilai in nilais){
+        total += nilai
+    }
 
-    print("aldan, ")
+    return "total nilai $nama adalah $total"
 }
